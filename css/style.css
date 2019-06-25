@@ -83,6 +83,13 @@ font-family: 'Muli', sans-serif;*/
 
  ***/
 
+.jumptarget::before {
+	content:"";
+	display:block;
+	height:50px; /* fixed header height*/
+	margin:-50px 0 0; /* negative fixed header height */
+}
+
 body {
 	font-family: 'Muli', sans-serif;
 	font-size:14px;
@@ -6293,7 +6300,7 @@ img{
 .companies-section .title-box{
 	position:relative;
 	padding:60px 0px 30px;
-	margin: 0px -50px 0px -50px;
+	margin: 20px -50px 0px -50px;
 }
 
 .companies-section .title-box:before{

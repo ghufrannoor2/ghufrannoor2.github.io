@@ -1287,6 +1287,7 @@
 	.portfolio-single-section .content-column .inner-column h2,
 	.contact-page-section .inner-container h2{
 		font-size:24px !important;
+		padding: 0px 15px 15px 0px;
 	}
 	
 	.main-slider h2.style-two,
