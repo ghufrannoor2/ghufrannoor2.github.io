@@ -125,7 +125,7 @@
 	}
 	
 	.main-header .nav-outer{
-		margin-top:0px;
+		margin-top:20px;
 	}
 	
 	.main-header.header-style-three .header-upper .outer-box{
@@ -338,7 +338,7 @@
 	}
 	
 	.main-header .nav-toggler{
-		display:block;
+		display:hidden;
 	}
 	
 	.about-section-four .sec-title-three .text,
@@ -685,8 +685,18 @@
 	
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 768px){
 	
+	.main-slider .text {
+		padding-left: 20px;
+	}
+
+	.services-image-style {
+		width:300px;
+		height:200px;
+		max-width:100%
+	}
+
 	.header-upper .logo-outer {
 		position:relative;
 		left:0px;
@@ -696,7 +706,7 @@
 		width:100%;
 		margin:0px;
 	}
-	
+
 	.sec-title h2,
 	.page-title h1,
 	.sec-title-two h2{
@@ -755,10 +765,10 @@
 	
 	.main-menu .navbar-header .navbar-toggle{
 		display:inline-block;
-		z-index:12;
+		z-index:20;
 		border:1px solid #cc8809;
 		float:none;
-		margin:0px 0px 0px 0px;
+		margin:-30px 0px 0px 0px;
 		border-radius:0px;
 		background:#cc8809;
 	}
@@ -959,8 +969,8 @@
 	}
 	
 	.main-menu .navbar-header .navbar-toggler{
-		display: inline-block;
-		z-index: 12;
+		display: hidden;
+		z-index: 20;
 		width: 50px;
 		height: 40px;
 		float: none;
@@ -976,7 +986,7 @@
 		background: #444444;
 		height: 2px;
 		width: 26px;
-		display: block;
+		display: hidden;
 		margin:0 auto;
 		margin:5px 11px;
 	}
@@ -1076,9 +1086,24 @@
 	
 	.main-header .header-upper .logo-box{
 		padding:12px 0px 12px;
+		align-items: center;
+		display: flex;
 		z-index:20;
 	}
-	
+
+	.logo-title-text{
+		font-family: 'Poppins', sans-serif;
+		font-size: 25px;
+		font-weight: 500;
+		color: white;
+		text-align: center;
+	}
+
+	.main-footer .widgets-section{
+		margin-left: 20px;
+		padding-bottom: 0px
+	}
+
 	.main-header .header-upper .option-box .nav-btn{
 		margin-left:0px;
 	}
@@ -1114,7 +1139,9 @@
 	}
 	
 	.main-header.header-style-three .header-upper .logo-box{
-		padding:30px 0px 40px;
+		padding:30px 10px 40px 10px;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 	
 	.main-header .header-lower .language .dropdown-menu{
@@ -1126,6 +1153,7 @@
 	.main-slider.style-four .content h1,
 	.main-slider h1.style-two{
 		font-size:38px;
+		margin-left: 20px;
 	}
 	
 	.main-slider.style-four .content{
@@ -1212,6 +1240,7 @@
 	
 	.main-slider h1{
 		font-size:30px;
+		margin-left: 20px;
 	}
 	
 	.main-header.header-style-five .nav-outer{
@@ -1502,11 +1531,13 @@
 	
 	.main-slider h1{
 		font-size:20px;
+		margin-left: 20px;
 	}
 	
 	.page-title .content h1,
 	.main-slider h1.style-two{
 		font-size:28px;
+		margin-left: 20px;
 	}
 	
 	.emailed-form .form-group{

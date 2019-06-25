@@ -2712,7 +2712,7 @@ img{
 	position:absolute;
 	top:10%;
 	z-index:1;
-	right:-28%;
+	right:-30%;
 }
 
 .main-slider .owl-dots{
@@ -5250,6 +5250,12 @@ img{
     display: table;
     vertical-align: middle;
     padding: 10px 30px;
+}
+
+.services-image-style {
+	width:525px;
+	height:295px;
+	max-width:100%
 }
 
 .services-block-four .inner-box .image .overlay-box-two .overlay-inner-two .content{
